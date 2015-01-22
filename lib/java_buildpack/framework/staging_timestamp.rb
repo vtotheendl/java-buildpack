@@ -2,6 +2,7 @@ require 'java_buildpack/framework'
 
 module JavaBuildpack::Framework
 
+
   # Adds a system property containing a timestamp of when the application was staged.
   class StagingTimestamp < JavaBuildpack::Component::BaseComponent
     def initialize(context)
